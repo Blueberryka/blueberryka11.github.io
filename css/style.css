@@ -1,0 +1,41 @@
+
+body {
+        background-color:firebrick;
+        background: static;
+        box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+        color: #fff;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        line-height: 1.5;
+        margin: 0 auto;
+        max-width: 1036px;
+        padding: 2em 2em 4em;
+}
+     
+.stroke {
+    color: firebrick;
+    text-align: center;
+    font-size: 70px;
+   font-family: 'Cinzel', serif
+    margin: 0;
+    text-shadow: #000 -2px -2px 0, 
+                  #fff 3px 3px 0;
+}
+
+.text{
+    text-align: right;
+    font-family: cursive;
+    
+}
+.blogs_item {
+    display:flex;
+    align-items:center; 
+}
+blogs_picture {
+    display: flex;
+    float: left;
+}
+
+.blogs_content {
+    padding-left: 20px;
+}
